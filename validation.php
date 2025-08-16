@@ -1,4 +1,4 @@
-// Prevent invalid or special characters in WooCommerce checkout + account edit forms
+//Prevent invalid or special characters in WooCommerce checkout + account edit forms
 add_action( 'woocommerce_after_checkout_validation', 'bs_validate_shipping_checkout_fields', 10, 2 );
 add_action( 'woocommerce_after_save_address_validation', 'bs_validate_shipping_account_fields', 10, 2 );
 
